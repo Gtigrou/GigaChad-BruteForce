@@ -7,14 +7,22 @@ par seconde.Gardez à l'esprit que ce chiffre
 peut varier en fonction de la machine utilisée.
 
 1sec =>
+
 1min =>
+
 1heure =>
+
 1jour =>
 
+
 mdp 3 =>              778 688 combinaisons
+
 mdp 4 =>          715 588 096 combinaisons
+
 mdp 5 =>       62 523 949 144 combinaisons
+
 mdp 6 =>5 748 647 907 983 680 combinaisons
+
 
 # Oui mais c'est pas un vrai.
 effectivement le Gigachad-BruteForce n'est qu'un algo ce qui veux dire qu'il ne possede 

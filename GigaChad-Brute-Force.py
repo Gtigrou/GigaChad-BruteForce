@@ -1,19 +1,3 @@
-"""
-La puissance de calcul de l'algodurant les tests était d'environ 250 433.21 combinaisons par seconde.
-Gardez à l'esprit que ce chiffre peut varier en fonction de la machine utilisée.
-
-1sec =>               250 433,21 combinaisons
-1min =>            15 025 992,6 combinaisons
-1heure =>         901 559 956 combinaisons
-1jour =>       21 640 588 576 combinaisons
-
-mdp 3 =>              778 688 combinaisons
-mdp 4 =>          715 588 096 combinaisons
-mdp 5 =>       62 523 949 144 combinaisons
-mdp 6 =>5 748 647 907 983 680 combinaisons
-
-!!! LA PUISSANCE DEPENDRA DE LA MACHINE UTILISER !!!
-"""
 import itertools
 import timeit
 import datetime

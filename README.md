@@ -1,13 +1,15 @@
 # GigaChad-BruteForce
 An Brute Force algo with python
 
-La puissance de calcul de l'algod urant les tests était d'environ 4 000 000 de combinaisons
-par seconde.Gardez à l'esprit que ce chiffre peut varier en fonction de la machine utilisée.
+La puissance de calcul de l'algod urant les tests
+était d'environ 4 000 000 de combinaisons
+par seconde.Gardez à l'esprit que ce chiffre
+peut varier en fonction de la machine utilisée.
 
-1sec =>               250 433,21 combinaisons
-1min =>            15 025 992,6 combinaisons
-1heure =>         901 559 956 combinaisons
-1jour =>       21 640 588 576 combinaisons
+1sec =>
+1min =>
+1heure =>
+1jour =>
 
 mdp 3 =>              778 688 combinaisons
 mdp 4 =>          715 588 096 combinaisons
@@ -20,4 +22,5 @@ pas le bout de code pour envoyer les requete au serveur attaquer.Mais il est for
 qu'une version disposant de ce bout de code arrive bientot ;)
 
 !!! LA PUISSANCE DEPENDRA DE LA MACHINE UTILISER !!!
+
 !!! Je ne suis en aucuncas responsable de ce que vous faites avec ce programe !!!

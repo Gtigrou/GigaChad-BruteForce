@@ -30,7 +30,6 @@ def check_password():
                 return True
     return False
 
-# Stocker le temps écoulé et le taux de test pour chaque itération
 elapsed_times = []
 test_rates = []
 
@@ -39,19 +38,17 @@ if check_password():
     end_time = timeit.default_timer()
     timer = round(end_time - start_time, 6)
 
-    # Calculer le taux de test pour chaque seconde
     for second in range(int(timer)):
         elapsed_time = datetime.timedelta(seconds=second + 1).total_seconds()
         test_rate = try_count / elapsed_time
         elapsed_times.append(elapsed_time)
         test_rates.append(test_rate)
 
-    # Afficher d'autres résultats
     formatted_time = format_time(timer)
     print("Temps écoulé => {}".format(formatted_time))
     print("Mot de passe trouvé en {} tentatives.".format(try_count))
     print("Mot de passe trouvé : {}".format(password))
-    # Tracer le graphique
+
     plt.plot(elapsed_times, test_rates)
     plt.xlabel('Temps écoulé (secondes)')
     plt.ylabel('Taux de test (combinaisons par seconde)')
